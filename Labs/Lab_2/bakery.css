@@ -1,0 +1,29 @@
+
+body {
+    background-color: #894e3f;
+    color: #f0d7a7;
+    font-family: Georgia, Garamond, serif;
+    font-size: 16px;
+}
+
+hr {
+    border-color: #c37960
+}
+
+.center {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#pie {
+    height: 300px;
+    width: 300px; 
+    border: solid #f0d7a7;
+}
