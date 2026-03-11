@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #c899ff, #9eecff);
+}
+
+article {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#textRelatedTasks {
+    border: 5px solid black;
+    border-radius: 10px;
+}

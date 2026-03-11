@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Test Page</title>
+
+    <link rel="stylesheet" href="./styling.css">
+</head>
+
+<body>
+    <header>
+        <h1>JavaScript Task 2</h1>
+    </header>
+
+    <main>
+        <div id="textRelatedTasks">
+            <article>
+                <h2>Part 1</h2>
+                <p>Enter your text in the box: </p>
+                <input id="userText" type="text" name="userText" placeholder="Type some text here!">
+                <button id="displayButton">Display</button>
+
+                <p id="displayText"></p>
+            </article>
+
+            <article>
+                <h2>Part 2</h2>
+                <p>Click button to manipulate Part 1 text to desired size.</p>
+                <p id="fontSizeDisplay"></p>
+                <button id="decreaseButton">Decrease Font Size</button>
+                <button id="resetButton">Reset Font Size</button>
+                <button id="increaseButton">Increase Font Size</button>
+            </article>
+
+            <article>
+                <h2>Part 3</h2>
+                <p>Click the corresponding radio button to change the font color or background color of Part 1's text.</p>
+                <p>
+                    <legend>Font color options:</legend>
+                        <input type="radio" id="red" name="colorChange" value="red">
+                        <label for="red">Red</label>
+
+                        <input type="radio" id="orange" name="colorChange" value="orange">
+                        <label for="orange">Orange</label>
+
+                        <input type="radio" id="yellow" name="colorChange" value="yellow">
+                        <label for="yellow">Yellow</label>
+
+                        <input type="radio" id="green" name="colorChange" value="green">
+                        <label for="green">Green</label>
+                        
+                        <input type="radio" id="blue" name="colorChange" value="blue">
+                        <label for="blue">Blue</label>
+
+                        <input type="radio" id="indigo" name="colorChange" value="indigo">
+                        <label for="indigo">Indigo</label>
+
+                        <input type="radio" id="purple" name="colorChange" value="purple">
+                        <label for="purple">Purple</label>
+
+                        <input type="radio" id="black" name="colorChange" value="black">
+                        <label for="black">Black</label>
+                </p>
+
+                <p>
+                    <legend>Background color options:</legend>
+                        <input type="radio" id="darkred" name="backgroundChange" value="darkred">
+                        <label for="darkred">Red</label>
+
+                        <input type="radio" id="darkorange" name="backgroundChange" value="darkorange">
+                        <label for="darkorange">Orange</label>
+
+                        <input type="radio" id="darkyellow" name="backgroundChange" value="darkyellow">
+                        <label for="bgYellowColor">Yellow</label>
+
+                        <input type="radio" id="darkgreen" name="backgroundChange" value="darkgreen">
+                        <label for="darkgreen">Green</label>
+
+                        <input type="radio" id="darkblue" name="backgroundChange" value="darkblue">
+                        <label for="darkblue">Blue</label>
+
+                        <input type="radio" id="darkindigo" name="backgroundChange" value="darkindigo">
+                        <label for="darkindigo">Indigo</label>
+
+                        <input type="radio" id="darkpurple" name="backgroundChange" value="darkpurple">
+                        <label for="darkpurple">Purple</label>
+
+                        <input type="radio" id="white" name="backgroundChange" value="white">
+                        <label for="white">White</label>
+                </p>
+            </article>
+        </div>
+
+        <article>   
+            <h2>Part 4</h2>
+            <p>Hover over the image you'd like to know more about:</p>
+
+            <div id="imageContainer">
+                <img id="hoshimachiSuisei" src="./Resources/Hoshimachi-Suisei.png" alt="The Hololive Japanese V-Tuber Hoshimachi Suisei">
+
+                <img id="ninomaeInanis" src="./Resources/Ninomae-Inanis.png" alt="The Hololive English V-Tuber Ninomae Ina-nis">
+
+                <img id="vestiaZeta" src="./Resources/Vestia-Zeta.png" alt="The Hololive Indonesian V-Tuber Vestia Zeta">
+            </div>
+
+            <div>
+                <img id="hoverImage" src="" alt=""><br>
+                <p id="altText"></p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Coded by Hunter H. (Spring 2026)</p>
+    </footer>
+
+    <script src="./functionality.js"></script>
+</body>
+
+</html>
