@@ -1,0 +1,30 @@
+* {
+    font-family: monospace;
+}
+
+h1, h3, label, p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+
+#gradient {
+    background-image: linear-gradient(#5edcee, #26c5fd, #4d9eed);
+}
+
+#solid {
+    background-color: #26c5fd;
+}
